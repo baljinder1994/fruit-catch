@@ -1,0 +1,67 @@
+html{
+    height:100%;
+    background-color: aqua;
+}
+#container{
+    background-color: azure;
+    height:750px;
+    width:750px;
+    margin:10px auto;
+    border-radius: 10px;
+    padding:20px;
+    position:relative;
+}
+#score{
+ background-color: #f1ff92;
+ color:#888e5f;
+ padding:11px;
+ position:absolute;
+ left:700px;
+
+}
+#fruitsContainer{
+    width:650px;
+    height:400px;
+    margin:50px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px red;
+    font-size: 100px;
+    text-align: center;
+    color:black;
+    line-height: 150px;
+    position:relative;
+    overflow: hidden;
+}
+#instruction{
+    width:450px;
+    height:50px;
+    background-color: #f1ff92;
+    margin:10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px #000;
+}
+#startreset{
+    width:80px;
+    padding:10px;
+    background-color: aqua;
+    margin:0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#lifesLeft{
+    width:80px;
+    padding:10px;
+    display:none;
+    position:absolute;
+    background-color: aliceblue;
+}
+.life{
+    width:1em;
+    height:1em;
+    margin:0 5px
+}
+.fruit{
+    display:none;
+    position:absolute
+}
